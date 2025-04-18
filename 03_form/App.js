@@ -7,6 +7,7 @@ import RadioButtonLibrary from './src/04_RadioButtonLibrary';
 import Picker from './src/05_Picker';
 import MyButton from './src/06_Button';
 import MySwitch from './src/07_Switch';
+import Form from './src/08_form';
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
       {/* <RadioButtonLibrary/> */}
       {/* <Picker/> */}
       {/* <MyButton/> */}
-      <MySwitch/>
+      {/* <MySwitch/> */}
+      <Form/>
     </View>
   );
 }

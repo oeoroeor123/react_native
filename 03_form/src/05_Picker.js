@@ -17,8 +17,6 @@ export default function Picker() {
   // 항목 리스트 (위에서 지정한 값을 초기값으로 지정)
   const [items, setItems] = useState(initItems);
 
-
-
   return(
     <DropDownPicker
       open={open}
